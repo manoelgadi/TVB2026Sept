@@ -591,7 +591,7 @@ This is the same basic idea we explored in the notebook, but now the user intera
 
 # ☁️ Part 4 — Deploy with PythonAnywhere
 
-Finally, we will deploy our Flask application using:
+Finally, we will deploy our Flask application using: **tvb_flask_openai.zip**
 
 👉 **PythonAnywhere**  
 https://www.pythonanywhere.com/
@@ -599,6 +599,22 @@ https://www.pythonanywhere.com/
 PythonAnywhere allows us to run Python applications on the web.
 
 The Flask application package and deployment instructions will be shared during the workshop.
+
+## ⚙️ PythonAnywhere Setup
+
+After uploading the project files to **PythonAnywhere**, open a **Bash console**, navigate to the project directory, and install the required Python packages:
+
+```bash
+pip3.14 install -r requirements.txt
+```
+
+Then reinstall/update **HTTPX2** to ensure the version is compatible with the OpenAI Python SDK:
+
+```bash
+python3.14 -m pip install --upgrade --force-reinstall "httpx2>=2.13.1,<3"
+```
+
+Once the installation is complete, **reload your PythonAnywhere web app** from the **Web** tab.
 
 ---
 
