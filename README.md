@@ -1,6 +1,5 @@
 Below is a complete `README.md` you can paste directly into the repository. I’ve structured it so students can understand the **entire journey of the workshop** from the repository homepage.
 
-````markdown
 # 🚀 Tech Venture Bootcamp 2026 — AI Prototyping Workshop
 
 Welcome to the **Tech Venture Bootcamp (TVB) — September 2026** AI workshop.
@@ -781,4 +780,3 @@ The progression of this workshop is therefore intentional:
 ### From Ideas → Prototypes → AI-Powered Products
 
 Experiment. Build. Test. Iterate.
-````
